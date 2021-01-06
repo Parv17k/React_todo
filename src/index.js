@@ -50,7 +50,6 @@ class App extends React.Component {
       todos: [...this.state.todos, { text: text, id: id_new, checked: false }]
     });
   };
-
  
   changeCheck = (element) => {
     let index = this.state.todos.indexOf(element);
@@ -72,6 +71,7 @@ class App extends React.Component {
       todos: newTodo
     });
   };
+
   render() {
     return (
       <div>
