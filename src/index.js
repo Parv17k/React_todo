@@ -75,13 +75,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>This is Todo App</h1>
+        <h1>Todo App</h1>
         <button
           onClick={() => {
             this.addItem();
           }}
         >
-          push me to add{" "}
+          push me to add
         </button>
         <ol>
           {this.state.todos.map((todo) => {
